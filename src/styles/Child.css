@@ -1,16 +1,21 @@
 .fix-box {
-    width: 250px;
+    width: 500px;
     height: 250px;
     margin: 20px;
     border: 1px white dotted;
     border-radius: 5px;
 }
 
-#master{
+#master {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* Centers vertically */
+    align-items: center;       /* Centers horizontally */
     border-radius: 5px;
     border: 2px white ridge;
     width: 100%;
 }
+
 
 .subheading{
     color: white;
